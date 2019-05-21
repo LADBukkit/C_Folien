@@ -63,14 +63,14 @@ Die vielleicht unbekannten Zeichen auf der Vorherigen Folie sind:
 ### Das Sternchen (\*)
 ___
 Es hat zwei Bedeutungen:
-1. Es zeigt an, dass eine Variable ein Pointer ist.
+1. Es zeigt an, dass eine Variable ein Zeiger ist.
 2. Das *Dereferenzieren*
 
 <!-- .element: class="fragment" -->
 
 --
 
-1. Es Zeigt an, dass eine Variable ein Pointer ist.
+1. Es Zeigt an, dass eine Variable ein Zeiger ist.
 
 ```c
 int* b;
