@@ -4,6 +4,7 @@
 ---
 
 ### Was ist Rekursion?
+___
 Rekursion bedeutet:
 <!-- .element: class="fragment" -->  
 **zu sich selber laufen**
@@ -69,6 +70,7 @@ int power(int x, int n) {
 ---
 
 ### Ein Methodenaufruf durchgespielt:
+___
 power(4, 3);
 
 --
