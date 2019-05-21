@@ -1,7 +1,6 @@
 # Was ist dieses Projekt?
 
-Es ist eine Ansammlung aus verschiedenen  
-Folien zur Erklärung der Sprache C.
+Es ist eine Ansammlung aus verschiedenen Folien zur Erklärung der Sprache C.
 
 <br>
 
