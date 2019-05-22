@@ -178,3 +178,41 @@ int main() {
 <!-- .element: style="border-style:none" -->
 </table>
 <!-- .element: class="fragment" -->
+
+
+---
+
+### Beispiel mit doppeltem Zeiger
+
+--
+
+```c
+struct Bruch {
+    int zaehler;
+    int nenner;
+}
+void neuerBruch(struct Bruch** bruch, int zaehler, int nenner) {
+    struct Bruch * l_br = (struct Bruch*) malloc(sizeof(struct Bruch));
+    l_br->zaehler = zaehler;
+    l_br->nenner = nenner;
+    if(*bruch != (struct Bruch)0) {
+        free(*bruch);
+    }
+    *bruch = l_br;
+}
+int main() {
+    struct Bruch * br = (struct Bruch)0;
+    neuerBruch(&br, 4, 3);
+    return 0;
+}
+```
+<!-- .element: style="font-size:18px;" -->
+
+<table id="bruch_table" class="memory-table">
+</table>
+
+<button id="play_bruch" style="float:left;margin-left:50px;" onclick="play_bruch()">Abspielen</button>
+<br>
+<br>
+<span id="bruch_desc" style="font-size:20px;"></span>
+<span id="bruch_pointer">⮕</span>

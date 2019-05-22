@@ -12,9 +12,10 @@ if (isset($_GET["page"])) {
 		<link rel="stylesheet" href="css/theme/moon.css" />
         <link rel="stylesheet" href="lib/css/monokai.css">
 
-        <link rel="stylesheet" href="css/table.css" />
+        <link rel="stylesheet" href="css/custom.css" />
 
         <script src="js/reveal.js"></script>
+        <script src="js/pointer.js"></script>
         <script src="plugin/markdown/marked.js"></script>
         <script src="plugin/markdown/markdown.js"></script>
         <script src="plugin/highlight/highlight.js"></script>
